@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHD Support App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ADHD Support App</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="#pomodoro">Pomodoro Timer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <div class="daily-schedule">
+                <h3>Daily Schedule</h3>
+                <ul>
+                    <li>08:00 Meeting with team</li>
+                    <li>10:00 Write report</li>
+                    <li>13:00 Lunch</li>
+                    <li>15:00 Project work</li>
+                </ul>
+            </div>
+            <div class="quick-access">
+                <button>Pomodoro Timer</button>
+                <button>Calendar</button>
+                <button>Documents</button>
+            </div>
+        </section>
+        <section id="calendar">
+            <h2>Calendar</h2>
+            <div class="week-view">
+                <div class="day">
+                    <h3>Monday</h3>
+                    <ul>
+                        <li>08:00 Meeting with team</li>
+                        <li>10:00 Write report</li>
+                    </ul>
+                </div>
+                <div class="day">
+                    <h3>Tuesday</h3>
+                    <ul>
+                        <li>09:00 Planning</li>
+                        <li>14:00 Client meeting</li>
+                    </ul>
+                </div>
+                <!-- More days can be added here -->
+            </div>
+        </section>
+        <section id="pomodoro">
+            <h2>Pomodoro Timer</h2>
+            <div class="timer">
+                <p>25:00</p>
+                <button>Start</button>
+                <button>Pause</button>
+                <button>Reset</button>
+            </div>
+            <div class="history">
+                <h3>History</h3>
+                <ul>
+                    <li>25 min Work</li>
+                    <li>5 min Break</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 ADHD Support App</p>
+    </footer>
+</body>
+</html>
